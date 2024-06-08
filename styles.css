@@ -16,12 +16,16 @@ body{
 nav {
     background-color: transparent;
     position: fixed;
+    align-items: center;
     width: 100%;
     z-index: 1000;
     transition: 0.3s ease-in-out;
-}
-
-#navbar{
+    margin-bottom: 3rem;
+    }
+    
+    
+    #navbar{
+    height: 5rem;
     width: 85%;
     margin: auto;
     display: flex;
@@ -35,7 +39,6 @@ nav {
     display: flex;
     flex-direction: row;
     place-items: center;
-
 }
 
 #navbar-links ul{
@@ -89,9 +92,9 @@ nav {
     border-radius: 7px;
 }
 
- #navbar-links li{
+#navbar-links li{
     align-items: center;
- } 
+} 
 
 
 #home-top-container{
@@ -127,6 +130,7 @@ nav {
     font-weight: 400;
     margin-top: 15px;
     color: rgb(135, 135, 135);
+    text-align: justify;
     
 }
 
@@ -138,7 +142,8 @@ nav {
 }
 
 #home-top-image img {
-    max-width: 800px;
+    max-width: 650px;
+    padding-left: 10%;
 }
 
 
